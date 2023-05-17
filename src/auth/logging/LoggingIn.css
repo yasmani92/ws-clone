@@ -1,0 +1,48 @@
+.login{
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw !important;
+    display: grid;
+    place-items: center;
+}
+
+.login_container{
+    padding: 100px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.login_container > img{
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.input_password{
+    padding-top: 1vh;
+}
+
+.form_wrapper {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.form_buttons > button {
+    margin-bottom: 1em;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: #ffffff;
+}
+
+.login_container > .login_google_button > button{
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #db4a39 !important;
+    color: #ffffff;
+}
+
+.change__button > button{
+    margin-top: .25em;
+}
